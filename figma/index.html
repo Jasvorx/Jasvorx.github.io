@@ -24,6 +24,8 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragi
 .stat b{display:block;font-size:22px}
 .stat span{font-size:13px;color:var(--sub)}
 .tip{background:#fff7e6;border:1px solid #ffe2a8;border-radius:12px;padding:10px 12px;font-size:14px;color:#6b4a00;margin:10px 0}
+.storylink{display:flex;gap:12px;align-items:center;background:var(--card);border-radius:14px;padding:12px 14px;margin:10px 0;text-decoration:none;color:var(--ink);box-shadow:0 1px 2px #0000000d;border:1px solid #ffe2a8}
+.storylink .ic{font-size:28px;line-height:1}.storylink b{display:block;font-size:16px}.storylink span{font-size:13px;color:var(--sub)}.storylink .go{margin-left:auto;color:var(--red);font-weight:800;font-size:18px}
 .toc{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:14px 0 6px}
 @media(min-width:640px){.toc{grid-template-columns:1fr 1fr 1fr}}
 .toc a{display:block;background:var(--card);border-radius:12px;padding:10px 12px;text-decoration:none;color:var(--ink);box-shadow:0 1px 2px #0000000d;font-size:14px;line-height:1.35}
@@ -89,6 +91,7 @@ footer a{color:var(--sub)}
 <p>每张截图上的<b style="color:var(--red)">红色数字</b>都可以<b>点一下</b>看解释；点图片空白处可以全屏放大。图下面是同样内容的文字版。</p>
 <div class="stats"><div class="stat"><b>207 / 266</b><span>个词在截图上标出位置</span></div><div class="stat"><b>48</b><span>张标注截图（其中 6 张是 2026 新界面）</span></div></div>
 <div class="tip">截图都来自 Figma 官方帮助中心（help.figma.com）当前在用的 UI3 截图；标「2026 新界面」的是 Config 2026 之后的新版（左侧新导航栏、新版自动布局面板、新工具栏）。旧版的 Inspect 页签截图已经全部去掉。</div>
+<a class="storylink" href="stories/"><span class="ic">📖</span><div><b>新：Figma 单词故事</b><span>跟着设计师小林做一个咖啡 App，13 章小故事把 266 个词串起来</span></div><span class="go">→</span></a>
 </div>
 <div class="toc" id="toc"></div>
 <div id="mods"></div>
